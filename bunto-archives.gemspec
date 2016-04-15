@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.licenses    = ["MIT"]
   s.files       = ["lib/bunto-archives.rb", "lib/bunto-archives/archive.rb"]
 
-  s.add_dependency "bunto", '>= 2.0'
+  s.add_dependency "bunto"
 
   s.add_development_dependency  'rake'
   s.add_development_dependency  'rdoc'
